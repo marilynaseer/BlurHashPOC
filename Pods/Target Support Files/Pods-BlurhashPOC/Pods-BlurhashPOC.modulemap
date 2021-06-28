@@ -1,0 +1,6 @@
+framework module Pods_BlurhashPOC {
+  umbrella header "Pods-BlurhashPOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
