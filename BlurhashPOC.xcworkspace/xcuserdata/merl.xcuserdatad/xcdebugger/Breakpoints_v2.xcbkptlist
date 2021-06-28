@@ -78,8 +78,8 @@
             filePath = "BlurhashPOC/Views/Image/Components/TableView/BannerImageCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "setupImage()"
             landmarkType = "7">
          </BreakpointContent>

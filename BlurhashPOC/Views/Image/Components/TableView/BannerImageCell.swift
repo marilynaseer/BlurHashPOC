@@ -86,9 +86,11 @@ class BannerImageCell: UITableViewCell {
   
     func setupImage(){
         guard let images = data else {return}
+        self.thumbnailImageView.image = images.image?.image
         DispatchQueue.main.asyncAfter(deadline: .now()+3) {
             self.thumbnailImageView.loadImageUsingUrlString(urlString: images.imageUrl)
         }
+       
     }
     
     func setupLayout(){
