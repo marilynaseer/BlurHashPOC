@@ -23,7 +23,6 @@ class NetworkManager {
             completed(.failure(.invalidURL))
             return
         }
-        
 
         let task = session.dataTask(with:url) { data, response, error in
             if let _ = error {

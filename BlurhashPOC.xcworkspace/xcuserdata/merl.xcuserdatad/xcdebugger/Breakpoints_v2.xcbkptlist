@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B2A4D624-B4B9-4B3D-919C-806FC9B7EE59"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BlurhashPOC/Views/General/CustomImageView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "loadImageUsingUrlString(urlString:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E0C995DA-87D7-4672-93E2-9E5B059FEB20"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -78,8 +62,8 @@
             filePath = "BlurhashPOC/Views/Image/Components/TableView/BannerImageCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "setupImage()"
             landmarkType = "7">
          </BreakpointContent>
@@ -103,33 +87,408 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0AEEDD01-EAD4-4865-9A2F-57A3BAB1FC7F"
+            uuid = "C8B09119-1888-4914-B5AF-E68BCDD5F2F4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BlurhashPOC/Main/SceneDelegate.swift"
+            filePath = "BlurhashPOCUITests/BlurhashPOCUITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "dismissSplashController()"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "testGameStyleSwitch()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "83B65E77-4B7F-4849-8BE4-BFEE8B638ED7"
+            uuid = "9642A652-CF4C-45E1-A039-A8043DB3F7D6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BlurhashPOC/Main/SceneDelegate.swift"
+            filePath = "BlurhashPOCTests/Test Cases/BlurhashPOCTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "scene(_:willConnectTo:options:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "test_DataImageLoadedFromHTTPSURL()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "352DEAC3-9D8C-4730-ACA8-E6D840D78A8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/General/CustomImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loadImageUsingUrlString(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1692035-CA1A-418D-913F-4E773FAB388F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/General/CustomImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loadImageUsingUrlString(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AD22EC4-A6B0-41B2-A0C7-408F35440FE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/General/CustomImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "loadImageUsingUrlString(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B23E2743-E6CA-4B96-9D33-9BAAEC96A63E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOCTests/Test Cases/BlurhashPOCTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testImageViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C01FF96B-6B73-47FF-B216-B3EFE3C38781"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/Image/ImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "data"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A15BCF8C-EB43-44D3-8210-EFC84F5592CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/Image/ImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E77141A8-2290-4CE7-BA9A-D74CE56AF624"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/Image/ImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "data"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FA72B76-FC00-4804-9191-8A02030F3138"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "spec()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF1236C4-439F-4CE4-B725-AD80F880A7EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/Image/ImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOC/Views/Image/ImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "data"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - 4b0054c6b45e46ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.data.getter : Swift.Optional&lt;BlurhashPOC.ImageViewModel&gt;"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - 745ef069aaccfec2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.data.setter : Swift.Optional&lt;BlurhashPOC.ImageViewModel&gt;"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "481">
+               </Location>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - 2f132dfd276dcf00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.data.modify : Swift.Optional&lt;BlurhashPOC.ImageViewModel&gt;"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - 96543c77faf93cb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.data.modify : Swift.Optional&lt;BlurhashPOC.ImageViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - a26dba8d6b8e733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BlurhashPOC.ImageViewController"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "589">
+               </Location>
+               <Location
+                  uuid = "3D7713C2-8C33-41E6-BA17-DB9369EC5056 - 555945c09ad67f2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOC.ImageViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BlurhashPOC.ImageViewController&gt;"
+                  moduleName = "BlurhashPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOC/Views/Image/ImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "530">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ImageViewModelSpec"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - 2cc7e124e404df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - a7de340dfac87d44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - fbb43d4a08291db2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.__allocating_init(selector: ObjectiveC.Selector) -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - 9e7c4c8a5fe707a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.init(selector: ObjectiveC.Selector) -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - 8729ab4695196455"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.__allocating_init() -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - 284b618ce09b7bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.init() -&gt; BlurhashPOCTests.ImageViewModelSpec"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "F05E5195-AC7A-44E5-9E7C-72AEB6BD8A9A - 1e9b939b37d6bb48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurhashPOCTests.ImageViewModelSpec.__deallocating_deinit"
+                  moduleName = "BlurhashPOCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/merl/Desktop/BlurhashPOC/BlurhashPOCTests/BlurHashQuickTests/ImageViewModelSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

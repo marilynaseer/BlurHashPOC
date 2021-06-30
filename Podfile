@@ -7,6 +7,8 @@ target 'BlurhashPOC' do
   # Pods for BlurhashPOC
   pod 'SnapKit', '~> 5.0.0'
   pod 'Alamofire', '~> 5.2'
+  pod 'Quick'
+  pod 'Nimble'
   target 'BlurhashPOCTests' do
     inherit! :search_paths
     # Pods for testing

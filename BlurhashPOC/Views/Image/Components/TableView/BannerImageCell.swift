@@ -9,6 +9,8 @@ import UIKit
 
 class BannerImageCell: UITableViewCell {
     
+    var punch: Float = 1
+    
     var data : ImageViewModel?{
         didSet{
             setupImage()
@@ -86,11 +88,13 @@ class BannerImageCell: UITableViewCell {
   
     func setupImage(){
         guard let images = data else {return}
-        self.thumbnailImageView.image = images.image?.image
+        self.thumbnailImageView.image = UIImage(blurHash: images.blurhash, size: CGSize(width: 32, height: 32), punch: punch)
         DispatchQueue.main.asyncAfter(deadline: .now()+3) {
-            self.thumbnailImageView.loadImageUsingUrlString(urlString: images.imageUrl)
+            self.thumbnailImageView.loadImageUsingUrlString(urlString: images.imageUrl, completion: {_ in 
+                print("hey i m set")
+            })
         }
-       
+//       
     }
     
     func setupLayout(){
@@ -101,8 +105,6 @@ class BannerImageCell: UITableViewCell {
         self.view.addSubview(thumbnailImageView)
         self.view.bringSubviewToFront(thumbnailImageView)
 
-        //view.backgroundColor = UIColor.red
-         
         view.snp.makeConstraints { (make) in
             make.top.equalToSuperview()
             make.height.equalToSuperview()

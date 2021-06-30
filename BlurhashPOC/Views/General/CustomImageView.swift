@@ -13,7 +13,10 @@ class CustomImageView: UIImageView {
     
     var imageUrlString: String?
     
-    func loadImageUsingUrlString(urlString: String) {
+    //typealias completion = () -> Void?
+
+    
+    func   loadImageUsingUrlString(urlString: String,completion: @escaping (UIImage)->()) {
         
         imageUrlString = urlString
         guard let url = URL(string: urlString) else { return }
@@ -35,6 +38,8 @@ class CustomImageView: UIImageView {
                     self.image = imageToCache
                 }
                 imageCache.setObject(imageToCache, forKey: urlString as NSString)
+                
+                completion(self.image ?? UIImage())
             }
         }).resume()
     }

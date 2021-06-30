@@ -97,7 +97,8 @@ class ImageViewCell : UITableViewCell,UICollectionViewDelegate,UICollectionViewD
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: IndividualImageCell = collectionView.dequeueReusableCell(withReuseIdentifier: "individualImageCell", for: indexPath) as! IndividualImageCell
         
-        cell.image.image =  UIImage(blurHash: blurArray[indexPath.row], size: CGSize(width: 32, height: 32), punch: punch)
+        let img = UIImage(blurHash: blurArray[indexPath.row], size: CGSize(width: 32, height: 32), punch: punch)
+        cell.image.image = img
        
         DispatchQueue.main.asyncAfter(deadline: .now()+4) {
             cell.image.image = self.imageArray[indexPath.row]

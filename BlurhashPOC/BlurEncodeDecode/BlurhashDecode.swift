@@ -10,6 +10,10 @@ import UIKit
 
 extension UIImage {
     public convenience init?(blurHash: String, size: CGSize, punch: Float = 1) {
+        
+        let start = CFAbsoluteTimeGetCurrent()
+        print("start:",start)
+        
         guard blurHash.count >= 6 else { return nil }
 
         let sizeFlag = String(blurHash[0]).decode83()
@@ -71,6 +75,8 @@ extension UIImage {
         space: CGColorSpaceCreateDeviceRGB(), bitmapInfo: bitmapInfo, provider: provider, decode: nil, shouldInterpolate: true, intent: .defaultIntent) else { return nil }
 
         self.init(cgImage: cgImage)
+        let diff = CFAbsoluteTimeGetCurrent() - start
+        print("end:",diff)
     }
 }
 

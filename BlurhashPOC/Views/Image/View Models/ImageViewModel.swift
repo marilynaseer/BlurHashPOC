@@ -29,9 +29,18 @@ struct ImageViewModel {
     var imageUrl: String
     var blurhash: String
     
-    var image : CustomImageView? {
-        CustomImageView(image:UIImage(blurHash:self.blurhash, size: CGSize(width: 32, height: 32), punch: punch))
-    }
+//    var image : CustomImageView? {
+//        
+//        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+//             self.image?.loadImageUsingUrlString(urlString: imageUrl, completion: {_ in
+//                print("hey i m set")
+//            })
+//        }
+//        
+//        return image
+//    }
+    
+    
     
     init(imageModel : Image){
         self.blurhash = imageModel.blurhash
