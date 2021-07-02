@@ -29,19 +29,6 @@ struct ImageViewModel {
     var imageUrl: String
     var blurhash: String
     
-//    var image : CustomImageView? {
-//        
-//        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
-//             self.image?.loadImageUsingUrlString(urlString: imageUrl, completion: {_ in
-//                print("hey i m set")
-//            })
-//        }
-//        
-//        return image
-//    }
-    
-    
-    
     init(imageModel : Image){
         self.blurhash = imageModel.blurhash
         self.description = imageModel.description

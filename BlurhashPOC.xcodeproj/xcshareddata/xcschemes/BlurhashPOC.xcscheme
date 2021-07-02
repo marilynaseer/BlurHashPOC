@@ -66,6 +66,11 @@
                BlueprintName = "BlurhashPOCTests"
                ReferencedContainer = "container:BlurhashPOC.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "BlurhashPOCTests/test_DataImageLoadedFromHTTPSURL()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">

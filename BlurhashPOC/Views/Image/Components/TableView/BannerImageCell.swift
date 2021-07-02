@@ -90,7 +90,7 @@ class BannerImageCell: UITableViewCell {
         guard let images = data else {return}
         self.thumbnailImageView.image = UIImage(blurHash: images.blurhash, size: CGSize(width: 32, height: 32), punch: punch)
         DispatchQueue.main.asyncAfter(deadline: .now()+3) {
-            self.thumbnailImageView.loadImageUsingUrlString(urlString: images.imageUrl, completion: {_ in 
+            self.thumbnailImageView.loadImageUsingUrlString(urlString: images.imageUrl, completion: {_,_  in 
                 print("hey i m set")
             })
         }

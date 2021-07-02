@@ -13,34 +13,24 @@ class CustomImageView: UIImageView {
     
     var imageUrlString: String?
     
-    //typealias completion = () -> Void?
-
-    
-    func   loadImageUsingUrlString(urlString: String,completion: @escaping (UIImage)->()) {
+    func loadImageUsingUrlString(urlString: String,completion: @escaping (UIImage?,RequestError?)-> Void) {
         
         imageUrlString = urlString
-        guard let url = URL(string: urlString) else { return }
-        image = nil
-        
-        if let imageFromCache = imageCache.object(forKey: urlString as NSString) {
-            self.image = imageFromCache
+        guard let url = URL(string: urlString) else {
+            completion(nil,RequestError.invalidRequestURLString)
             return
         }
-        
-        URLSession.shared.dataTask(with: url, completionHandler: { (data, respones, error) in
-            if error != nil {
-                print(error ?? "")
+        URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
+            if let requestError = error {
+                completion(nil,RequestError.failedRequest(description: requestError.localizedDescription))
                 return
             }
-            DispatchQueue.main.async {
-                guard let imageToCache = UIImage(data: data!) else { return }
-                if self.imageUrlString == urlString {
-                    self.image = imageToCache
-                }
-                imageCache.setObject(imageToCache, forKey: urlString as NSString)
-                
-                completion(self.image ?? UIImage())
-            }
+            guard let image = UIImage(data: data!) else {
+                completion(nil,RequestError.invalidResponseModel)
+                return }
+            
+            completion(image,nil)
+            
         }).resume()
     }
     

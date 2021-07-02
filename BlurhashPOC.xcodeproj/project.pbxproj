@@ -15,14 +15,23 @@
 		4D630D592689E10500F85B4A /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D582689E10500F85B4A /* NetworkMonitor.swift */; };
 		4D630D5C268A0AAC00F85B4A /* ImageViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D5B268A0AAC00F85B4A /* ImageViewModelSpec.swift */; };
 		4D630D5E268B053B00F85B4A /* ImageViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D5D268B053B00F85B4A /* ImageViewControllerSpec.swift */; };
+		4D630D63268DA65400F85B4A /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D62268DA65400F85B4A /* AnalyticsEvent.swift */; };
+		4D630D65268DA6E800F85B4A /* AnalyticsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D64268DA6E800F85B4A /* AnalyticsProtocol.swift */; };
+		4D630D67268DA72C00F85B4A /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D66268DA72C00F85B4A /* MovieViewController.swift */; };
+		4D630D69268DA79900F85B4A /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D68268DA79900F85B4A /* MovieViewModel.swift */; };
+		4D630D6D268DA90400F85B4A /* MockAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D6C268DA90400F85B4A /* MockAnalytics.swift */; };
+		4D630D71268DAE7500F85B4A /* MovieViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D70268DAE7500F85B4A /* MovieViewTests.swift */; };
+		4D630D73268DCBB800F85B4A /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D72268DCBB800F85B4A /* MockURLProtocol.swift */; };
+		4D630D75268EC0C100F85B4A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D74268EC0C100F85B4A /* RequestError.swift */; };
+		4D630D77268EC6AB00F85B4A /* CustomImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D76268EC6AB00F85B4A /* CustomImageViewTests.swift */; };
+		4D630D7A268EF77300F85B4A /* ImageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D630D79268EF77200F85B4A /* ImageViewControllerTests.swift */; };
 		4DA88D26267B5EA100D0D62A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D25267B5EA100D0D62A /* AppDelegate.swift */; };
 		4DA88D28267B5EA100D0D62A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D27267B5EA100D0D62A /* SceneDelegate.swift */; };
 		4DA88D2F267B5EA200D0D62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88D2E267B5EA200D0D62A /* Assets.xcassets */; };
-		4DA88D3D267B5EA300D0D62A /* BlurhashPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D3C267B5EA300D0D62A /* BlurhashPOCTests.swift */; };
+		4DA88D3D267B5EA300D0D62A /* ImageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D3C267B5EA300D0D62A /* ImageViewModelTests.swift */; };
 		4DA88D48267B5EA300D0D62A /* BlurhashPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D47267B5EA300D0D62A /* BlurhashPOCUITests.swift */; };
 		4DA88D57267B5EDF00D0D62A /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D56267B5EDF00D0D62A /* SplashController.swift */; };
 		4DA88D5B267B631900D0D62A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D5A267B631900D0D62A /* ImageViewController.swift */; };
-		4DA88D5E267B683800D0D62A /* BlurhashEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D5D267B683800D0D62A /* BlurhashEncode.swift */; };
 		4DA88D60267B684500D0D62A /* BlurhashDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D5F267B684500D0D62A /* BlurhashDecode.swift */; };
 		4DA88D6D267B770100D0D62A /* ImageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D6C267B770100D0D62A /* ImageViewController+Extension.swift */; };
 		4DA88D6F267B77DD00D0D62A /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88D6E267B77DD00D0D62A /* ImageViewCell.swift */; };
@@ -66,20 +75,29 @@
 		4D630D582689E10500F85B4A /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		4D630D5B268A0AAC00F85B4A /* ImageViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModelSpec.swift; sourceTree = "<group>"; };
 		4D630D5D268B053B00F85B4A /* ImageViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewControllerSpec.swift; sourceTree = "<group>"; };
+		4D630D62268DA65400F85B4A /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		4D630D64268DA6E800F85B4A /* AnalyticsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProtocol.swift; sourceTree = "<group>"; };
+		4D630D66268DA72C00F85B4A /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		4D630D68268DA79900F85B4A /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		4D630D6C268DA90400F85B4A /* MockAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAnalytics.swift; sourceTree = "<group>"; };
+		4D630D70268DAE7500F85B4A /* MovieViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewTests.swift; sourceTree = "<group>"; };
+		4D630D72268DCBB800F85B4A /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		4D630D74268EC0C100F85B4A /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		4D630D76268EC6AB00F85B4A /* CustomImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewTests.swift; sourceTree = "<group>"; };
+		4D630D79268EF77200F85B4A /* ImageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewControllerTests.swift; sourceTree = "<group>"; };
 		4DA88D22267B5EA100D0D62A /* BlurhashPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurhashPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA88D25267B5EA100D0D62A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA88D27267B5EA100D0D62A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DA88D2E267B5EA200D0D62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA88D33267B5EA200D0D62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA88D38267B5EA300D0D62A /* BlurhashPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurhashPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DA88D3C267B5EA300D0D62A /* BlurhashPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashPOCTests.swift; sourceTree = "<group>"; };
+		4DA88D3C267B5EA300D0D62A /* ImageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModelTests.swift; sourceTree = "<group>"; };
 		4DA88D3E267B5EA300D0D62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA88D43267B5EA300D0D62A /* BlurhashPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurhashPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA88D47267B5EA300D0D62A /* BlurhashPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashPOCUITests.swift; sourceTree = "<group>"; };
 		4DA88D49267B5EA300D0D62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA88D56267B5EDF00D0D62A /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		4DA88D5A267B631900D0D62A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		4DA88D5D267B683800D0D62A /* BlurhashEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashEncode.swift; sourceTree = "<group>"; };
 		4DA88D5F267B684500D0D62A /* BlurhashDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashDecode.swift; sourceTree = "<group>"; };
 		4DA88D6C267B770100D0D62A /* ImageViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageViewController+Extension.swift"; sourceTree = "<group>"; };
 		4DA88D6E267B77DD00D0D62A /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
@@ -169,7 +187,8 @@
 		4D630D4E2689BEDA00F85B4A /* Test Cases */ = {
 			isa = PBXGroup;
 			children = (
-				4DA88D3C267B5EA300D0D62A /* BlurhashPOCTests.swift */,
+				4DA88D3C267B5EA300D0D62A /* ImageViewModelTests.swift */,
+				4D630D76268EC6AB00F85B4A /* CustomImageViewTests.swift */,
 			);
 			path = "Test Cases";
 			sourceTree = "<group>";
@@ -207,6 +226,41 @@
 			path = BlurHashQuickTests;
 			sourceTree = "<group>";
 		};
+		4D630D61268DA64300F85B4A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4D630D62268DA65400F85B4A /* AnalyticsEvent.swift */,
+				4D630D64268DA6E800F85B4A /* AnalyticsProtocol.swift */,
+				4D630D66268DA72C00F85B4A /* MovieViewController.swift */,
+				4D630D68268DA79900F85B4A /* MovieViewModel.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		4D630D6B268DA8ED00F85B4A /* BlurHashAnalyticsTest */ = {
+			isa = PBXGroup;
+			children = (
+				4D630D6C268DA90400F85B4A /* MockAnalytics.swift */,
+				4D630D70268DAE7500F85B4A /* MovieViewTests.swift */,
+			);
+			path = BlurHashAnalyticsTest;
+			sourceTree = "<group>";
+		};
+		4D630D78268EF74300F85B4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D630D79268EF77200F85B4A /* ImageViewControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D630D7B268EF7BC00F85B4A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		4DA88D19267B5EA100D0D62A = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +286,7 @@
 		4DA88D24267B5EA100D0D62A /* BlurhashPOC */ = {
 			isa = PBXGroup;
 			children = (
+				4D630D61268DA64300F85B4A /* Analytics */,
 				4D630D572689E0F500F85B4A /* SupportingFiles */,
 				4DA88D89267C3E9000D0D62A /* UIHelper */,
 				4DA88D86267C3C7600D0D62A /* Utilities */,
@@ -250,12 +305,16 @@
 		4DA88D3B267B5EA300D0D62A /* BlurhashPOCTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D630D7B268EF7BC00F85B4A /* Protocol */,
+				4D630D78268EF74300F85B4A /* Controllers */,
+				4D630D6B268DA8ED00F85B4A /* BlurHashAnalyticsTest */,
 				4D630D5A268A0A6100F85B4A /* BlurHashQuickTests */,
 				4D630D542689DF2400F85B4A /* BlurHashSlowTests */,
 				4D630D4F2689BEE100F85B4A /* Supporting Files */,
 				4D630D4E2689BEDA00F85B4A /* Test Cases */,
 				4D630D4D2689BED200F85B4A /* Extensions */,
 				4D630D4C2689BECC00F85B4A /* Stubs */,
+				4D630D72268DCBB800F85B4A /* MockURLProtocol.swift */,
 			);
 			path = BlurhashPOCTests;
 			sourceTree = "<group>";
@@ -299,7 +358,6 @@
 		4DA88D5C267B682100D0D62A /* BlurEncodeDecode */ = {
 			isa = PBXGroup;
 			children = (
-				4DA88D5D267B683800D0D62A /* BlurhashEncode.swift */,
 				4DA88D5F267B684500D0D62A /* BlurhashDecode.swift */,
 			);
 			path = BlurEncodeDecode;
@@ -387,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA88D87267C3C8400D0D62A /* ErrorType.swift */,
+				4D630D74268EC0C100F85B4A /* RequestError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -647,22 +706,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA88D6D267B770100D0D62A /* ImageViewController+Extension.swift in Sources */,
+				4D630D65268DA6E800F85B4A /* AnalyticsProtocol.swift in Sources */,
 				4DA88D6F267B77DD00D0D62A /* ImageViewCell.swift in Sources */,
 				4DA88D74267B786F00D0D62A /* IndividualImageCell.swift in Sources */,
 				4DA88D7F267C2D2E00D0D62A /* CustomImageView.swift in Sources */,
 				4DA88D57267B5EDF00D0D62A /* SplashController.swift in Sources */,
 				4DA88D8B267C3E9F00D0D62A /* UIHelper.swift in Sources */,
+				4D630D69268DA79900F85B4A /* MovieViewModel.swift in Sources */,
+				4D630D75268EC0C100F85B4A /* RequestError.swift in Sources */,
 				4DA88D60267B684500D0D62A /* BlurhashDecode.swift in Sources */,
 				4DA88D7A267B7DF000D0D62A /* BannerImageCell.swift in Sources */,
 				4DA88D5B267B631900D0D62A /* ImageViewController.swift in Sources */,
 				4DA88D85267C3BF400D0D62A /* Image.swift in Sources */,
 				4DA88D26267B5EA100D0D62A /* AppDelegate.swift in Sources */,
 				4DA88D88267C3C8400D0D62A /* ErrorType.swift in Sources */,
-				4DA88D5E267B683800D0D62A /* BlurhashEncode.swift in Sources */,
+				4D630D67268DA72C00F85B4A /* MovieViewController.swift in Sources */,
 				4DA88D7D267BB05700D0D62A /* UIColor+Extension.swift in Sources */,
 				4DA88D82267C3BB700D0D62A /* NetworkManager.swift in Sources */,
 				4DA88D77267B789700D0D62A /* CardView.swift in Sources */,
 				4D630D592689E10500F85B4A /* NetworkMonitor.swift in Sources */,
+				4D630D63268DA65400F85B4A /* AnalyticsEvent.swift in Sources */,
 				4D630D4A2689A46F00F85B4A /* ImageViewModel.swift in Sources */,
 				4DA88D28267B5EA100D0D62A /* SceneDelegate.swift in Sources */,
 			);
@@ -672,11 +735,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D630D77268EC6AB00F85B4A /* CustomImageViewTests.swift in Sources */,
 				4D630D5E268B053B00F85B4A /* ImageViewControllerSpec.swift in Sources */,
+				4D630D71268DAE7500F85B4A /* MovieViewTests.swift in Sources */,
 				4D630D532689C0B800F85B4A /* XCTestCase.swift in Sources */,
 				4D630D5C268A0AAC00F85B4A /* ImageViewModelSpec.swift in Sources */,
-				4DA88D3D267B5EA300D0D62A /* BlurhashPOCTests.swift in Sources */,
+				4DA88D3D267B5EA300D0D62A /* ImageViewModelTests.swift in Sources */,
+				4D630D6D268DA90400F85B4A /* MockAnalytics.swift in Sources */,
 				4D630D562689DF3E00F85B4A /* BlurHashSlowTests.swift in Sources */,
+				4D630D7A268EF77300F85B4A /* ImageViewControllerTests.swift in Sources */,
+				4D630D73268DCBB800F85B4A /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ import Nimble
 class ImageViewControllerSpec: QuickSpec {
     override func spec() {
         var sut: ImageViewController!
-        describe("The 'View Controller'") {
+        xdescribe("The 'View Controller'") {
             context("Can show the correct labels text") {
                 afterEach {
                     sut = nil
